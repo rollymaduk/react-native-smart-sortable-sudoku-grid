@@ -6,7 +6,6 @@
  */
 
 import React, {
-    PropTypes,
     Component,
 } from 'react'
 import {
@@ -28,6 +27,8 @@ import {
     containerHeight,
 } from './constants'
 import TimerEnhance from 'react-native-smart-timer-enhance'
+
+import PropTypes from 'prop-types';
 
 const { width: deviceWidth } = Dimensions.get('window');
 const styles = StyleSheet.create({

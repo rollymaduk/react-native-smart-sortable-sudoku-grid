@@ -1,5 +1,4 @@
 import React, {
-    PropTypes,
     Component,
 } from 'react'
 import {
@@ -13,6 +12,8 @@ import {
     cellAnimationTypes,
     cellTranslation,
 } from './constants'
+
+import PropTypes from 'prop-types';
 
 export default class SortableCell extends Component {
 
